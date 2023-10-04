@@ -1,0 +1,28 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace eSya.Localize.DO
+{
+   public class DO_LocalizationMaster
+    {
+        public bool IsInsert { get; set; }
+        public int TableCode { get; set; }
+        public string SchemaName { get; set; }
+        public string TableName { get; set; }
+        public bool ActiveStatus { get; set; }
+        public string FormId { get; set; }
+        public int UserID { get; set; }
+        public string TerminalID { get; set; }
+    }
+
+    public class DO_ReturnParameter
+    {
+        public bool Status { get; set; }
+        public string StatusCode { get; set; }
+        public string Message { get; set; }
+        public string ErrorCode { get; set; }
+        public decimal ID { get; set; }
+        public string Key { get; set; }
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "W0105": "Key already Exist in this Selected Resource",
+  "W0106": "Language Controller is not Exist",
+  "W0107": "Table Code is already Exist",
+  "W0108": "Table Name is already Exist",
+  "W0109": "Schema Name isalready Exist",
+  "W0110": "Table Mapping is not Exist",
+  "W0111": "Login ID is already Exist",
+  "W0112": "User ID is not Exist",
+  "S0001": "Saved Sucessfully",
+  "S0002": "Updated Sucessfully",
+  "S0003": "Activated Successfully",
+  "S0004": "De Activated Successfully",
+  "S0005": "Deleted Sucessfully"
+}
