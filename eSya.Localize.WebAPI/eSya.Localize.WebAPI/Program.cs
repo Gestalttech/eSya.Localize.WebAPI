@@ -53,7 +53,6 @@ builder.Services.AddLocalization();
 builder.Services.AddScoped<IControllerRepository, ControllerRepository>();
 builder.Services.AddScoped<ICultureRepository, CultureRepository>();
 builder.Services.AddScoped<IMasterRepository, MasterRepository>();
-builder.Services.AddScoped<IUserCreationRepository, UserCreationRepository>();
 builder.Services.AddSingleton<IStringLocalizerFactory, JsonStringLocalizerFactory>();
 
 

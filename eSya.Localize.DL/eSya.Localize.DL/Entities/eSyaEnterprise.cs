@@ -28,7 +28,6 @@ namespace eSya.Localize.DL.Entities
         public virtual DbSet<GtEcltfc> GtEcltfcs { get; set; } = null!;
         public virtual DbSet<GtEclttl> GtEclttls { get; set; } = null!;
         public virtual DbSet<GtEclttm> GtEclttms { get; set; } = null!;
-        public virtual DbSet<GtEcltu> GtEcltus { get; set; } = null!;
         public virtual DbSet<GtEcmamn> GtEcmamns { get; set; } = null!;
         public virtual DbSet<GtEcsbmn> GtEcsbmns { get; set; } = null!;
         public virtual DbSet<GtEcstrm> GtEcstrms { get; set; } = null!;
@@ -136,20 +135,6 @@ namespace eSya.Localize.DL.Entities
 
                 entity.Property(e => e.CurrencyCode).HasMaxLength(4);
 
-                entity.Property(e => e.EActiveUsers).HasColumnName("eActiveUsers");
-
-                entity.Property(e => e.EBusinessKey).HasColumnName("eBusinessKey");
-
-                entity.Property(e => e.ENoOfBeds).HasColumnName("eNoOfBeds");
-
-                entity.Property(e => e.ESyaLicenseType)
-                    .HasMaxLength(1)
-                    .IsUnicode(false)
-                    .HasColumnName("eSyaLicenseType")
-                    .IsFixedLength();
-
-                entity.Property(e => e.EUserLicenses).HasColumnName("eUserLicenses");
-
                 entity.Property(e => e.FormId)
                     .HasMaxLength(10)
                     .IsUnicode(false)
@@ -159,13 +144,11 @@ namespace eSya.Localize.DL.Entities
 
                 entity.Property(e => e.LocationDescription).HasMaxLength(150);
 
-                entity.Property(e => e.LocnDateFormat)
-                    .HasMaxLength(12)
-                    .IsUnicode(false);
-
                 entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
 
                 entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
+
+                entity.Property(e => e.ShortDesc).HasMaxLength(15);
 
                 entity.Property(e => e.TocurrConversion).HasColumnName("TOCurrConversion");
 
@@ -412,38 +395,6 @@ namespace eSya.Localize.DL.Entities
                 entity.Property(e => e.TableName)
                     .HasMaxLength(50)
                     .IsUnicode(false);
-            });
-
-            modelBuilder.Entity<GtEcltu>(entity =>
-            {
-                entity.HasKey(e => e.UserId);
-
-                entity.ToTable("GT_ECLTUS");
-
-                entity.Property(e => e.UserId)
-                    .ValueGeneratedNever()
-                    .HasColumnName("UserID");
-
-                entity.Property(e => e.CreatedOn).HasColumnType("datetime");
-
-                entity.Property(e => e.CreatedTerminal).HasMaxLength(50);
-
-                entity.Property(e => e.FormId)
-                    .HasMaxLength(10)
-                    .IsUnicode(false)
-                    .HasColumnName("FormID");
-
-                entity.Property(e => e.LoginDesc).HasMaxLength(50);
-
-                entity.Property(e => e.LoginId)
-                    .HasMaxLength(20)
-                    .HasColumnName("LoginID");
-
-                entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
-
-                entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
-
-                entity.Property(e => e.Password).HasMaxLength(2000);
             });
 
             modelBuilder.Entity<GtEcmamn>(entity =>

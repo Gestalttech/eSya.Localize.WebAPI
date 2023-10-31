@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="IUserCreationRepository.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\..\eSya.Localize.DO\eSya.Localize.DO\eSya.Localize.DO.csproj" />
   </ItemGroup>
 
