@@ -37,7 +37,6 @@ D:\Projects\eSyaJsonworking\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\bin\Debug\net6.0\eSya.Localize.DO.deps.json
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\bin\Debug\net6.0\eSya.Localize.DO.dll
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\bin\Debug\net6.0\eSya.Localize.DO.pdb
-D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\obj\Debug\net6.0\eSya.Localize.DO.csproj.AssemblyReference.cache
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\obj\Debug\net6.0\eSya.Localize.DO.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\obj\Debug\net6.0\eSya.Localize.DO.AssemblyInfoInputs.cache
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\obj\Debug\net6.0\eSya.Localize.DO.AssemblyInfo.cs
@@ -46,3 +45,4 @@ D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\obj\Debug\net6.0\refint\eSya.Localize.DO.dll
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\obj\Debug\net6.0\eSya.Localize.DO.pdb
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\obj\Debug\net6.0\ref\eSya.Localize.DO.dll
+D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DO\eSya.Localize.DO\obj\Debug\net6.0\eSya.Localize.DO.sourcelink.json

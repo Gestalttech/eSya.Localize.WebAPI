@@ -74,3 +74,4 @@ D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DL\eSya.Localize
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DL\eSya.Localize.DL\obj\Debug\net6.0\eSya.Localize.DL.pdb
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DL\eSya.Localize.DL\obj\Debug\net6.0\eSya.Localize.DL.genruntimeconfig.cache
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DL\eSya.Localize.DL\obj\Debug\net6.0\ref\eSya.Localize.DL.dll
+D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.DL\eSya.Localize.DL\obj\Debug\net6.0\eSya.Localize.DL.sourcelink.json

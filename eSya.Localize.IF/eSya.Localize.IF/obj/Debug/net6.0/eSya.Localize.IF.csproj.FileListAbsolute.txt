@@ -58,3 +58,4 @@ D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.IF\eSya.Localize
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.IF\eSya.Localize.IF\obj\Debug\net6.0\refint\eSya.Localize.IF.dll
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.IF\eSya.Localize.IF\obj\Debug\net6.0\eSya.Localize.IF.pdb
 D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.IF\eSya.Localize.IF\obj\Debug\net6.0\ref\eSya.Localize.IF.dll
+D:\Projects\eSyaProjects2022\eSya.Localize.WebAPI\eSya.Localize.IF\eSya.Localize.IF\obj\Debug\net6.0\eSya.Localize.IF.sourcelink.json

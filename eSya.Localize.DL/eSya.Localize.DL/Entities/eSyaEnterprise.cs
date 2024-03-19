@@ -144,6 +144,8 @@ namespace eSya.Localize.DL.Entities
 
                 entity.Property(e => e.LocationDescription).HasMaxLength(150);
 
+                entity.Property(e => e.Lstatus).HasColumnName("LStatus");
+
                 entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
 
                 entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
@@ -170,7 +172,9 @@ namespace eSya.Localize.DL.Entities
                     .ValueGeneratedNever()
                     .HasColumnName("ISDCode");
 
-                entity.Property(e => e.CountryCode).HasMaxLength(4);
+                entity.Property(e => e.CountryCode)
+                    .HasMaxLength(4)
+                    .IsUnicode(false);
 
                 entity.Property(e => e.CountryFlag).HasMaxLength(150);
 
@@ -202,8 +206,6 @@ namespace eSya.Localize.DL.Entities
                 entity.Property(e => e.ModifiedOn).HasColumnType("datetime");
 
                 entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
-
-                entity.Property(e => e.Nationality).HasMaxLength(50);
 
                 entity.Property(e => e.PincodePattern)
                     .HasMaxLength(25)
@@ -480,11 +482,6 @@ namespace eSya.Localize.DL.Entities
                 entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
 
                 entity.Property(e => e.StoreDesc).HasMaxLength(50);
-
-                entity.Property(e => e.StoreType)
-                    .HasMaxLength(1)
-                    .IsUnicode(false)
-                    .IsFixedLength();
             });
 
             OnModelCreatingPartial(modelBuilder);
