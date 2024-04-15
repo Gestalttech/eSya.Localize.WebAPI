@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eSya.Localize.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c8e6676fac7deec59848e7c2b49e8e4168b64ebf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+125d35fc6a24d600e39bf32d57be63b32f2edd01")]
 [assembly: System.Reflection.AssemblyProductAttribute("eSya.Localize.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eSya.Localize.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

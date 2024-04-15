@@ -7,6 +7,7 @@ namespace eSya.Localize.DL.Entities
     {
         public int ActionId { get; set; }
         public string ActionDesc { get; set; } = null!;
+        public int DisplaySequence { get; set; }
         public bool ActiveStatus { get; set; }
         public int CreatedBy { get; set; }
         public DateTime CreatedOn { get; set; }
