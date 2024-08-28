@@ -347,7 +347,7 @@ namespace eSya.Localize.DL.Repository
                     .Select(r => new DO_TableField
                     {
                         TablePrimaryKeyId = r.BusinessKey,
-                        FieldDesc = r.LocationDescription
+                        FieldDesc =r.BusinessName+"-"+ r.LocationDescription
                     });
             }
             else if (SchemaName.ToUpper() == "GT_ECCNCD")
