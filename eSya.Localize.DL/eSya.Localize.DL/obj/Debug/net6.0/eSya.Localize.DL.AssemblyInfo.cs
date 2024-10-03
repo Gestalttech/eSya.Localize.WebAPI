@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("eSya.Localize.DL")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+125d35fc6a24d600e39bf32d57be63b32f2edd01")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d06ba1e8efe2253f973f784d8c3e7334c03a1c89")]
 [assembly: System.Reflection.AssemblyProductAttribute("eSya.Localize.DL")]
 [assembly: System.Reflection.AssemblyTitleAttribute("eSya.Localize.DL")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

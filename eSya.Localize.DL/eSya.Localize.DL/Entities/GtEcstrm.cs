@@ -6,6 +6,7 @@ namespace eSya.Localize.DL.Entities
     public partial class GtEcstrm
     {
         public int StoreCode { get; set; }
+        public int StoreType { get; set; }
         public string StoreDesc { get; set; } = null!;
         public bool ActiveStatus { get; set; }
         public string FormId { get; set; } = null!;

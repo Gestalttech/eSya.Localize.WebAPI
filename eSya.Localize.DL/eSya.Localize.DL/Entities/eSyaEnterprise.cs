@@ -8,7 +8,6 @@ namespace eSya.Localize.DL.Entities
     public partial class eSyaEnterprise : DbContext
     {
         public static string _connString = "";
-
         public eSyaEnterprise()
         {
         }
@@ -152,15 +151,6 @@ namespace eSya.Localize.DL.Entities
                 entity.Property(e => e.ModifiedTerminal).HasMaxLength(50);
 
                 entity.Property(e => e.ShortDesc).HasMaxLength(15);
-
-                entity.Property(e => e.TocurrConversion).HasColumnName("TOCurrConversion");
-
-                entity.Property(e => e.TolocalCurrency)
-                    .IsRequired()
-                    .HasColumnName("TOLocalCurrency")
-                    .HasDefaultValueSql("((1))");
-
-                entity.Property(e => e.TorealCurrency).HasColumnName("TORealCurrency");
             });
 
             modelBuilder.Entity<GtEccncd>(entity =>
@@ -462,12 +452,10 @@ namespace eSya.Localize.DL.Entities
 
             modelBuilder.Entity<GtEcstrm>(entity =>
             {
-                entity.HasKey(e => e.StoreCode)
+                entity.HasKey(e => new { e.StoreCode, e.StoreType })
                     .HasName("PK_GT_ECSTRM_1");
 
                 entity.ToTable("GT_ECSTRM");
-
-                entity.Property(e => e.StoreCode).ValueGeneratedNever();
 
                 entity.Property(e => e.CreatedOn).HasColumnType("datetime");
 
